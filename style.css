@@ -60,13 +60,13 @@ main {
   /* align-items: center;
   justify-content: center; */
   flex-wrap: wrap;
-  flex-shrink: 1 1 495px;
+  flex-basis: 1 1 369px;
   /* background-color: red; */
 }
 
 .projects {
-  flex: 1 1 240px;
-  height: 150px;
+  flex: 1 1 300px;
+  height: 200px;
   margin: 10px;
   border-bottom: 5px solid #1a284b;
   /* background-color: yellow; */
