@@ -59,13 +59,14 @@ main {
   /* align-items: center;
   justify-content: center; */
   flex-wrap: wrap;
-  /* flex-shrink: 1 0 200px; */
+  /* flex-shrink: 1 1 3000px; */
   background-color: red;
 }
 .projects {
   flex: 1 1 127px;
-  height: 200px;
+  height: 300px;
   margin: 10px;
+  background-color: yellow;
 }
 .projects h1 {
   text-align: center;
