@@ -63,7 +63,7 @@ main {
   background-color: red;
 }
 .projects {
-  flex: 1 1 127px;
+  flex: 1 1 150px;
   height: 300px;
   margin: 10px;
   background-color: yellow;
