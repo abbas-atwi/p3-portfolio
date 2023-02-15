@@ -62,13 +62,13 @@ main {
   /* align-items: center;
   justify-content: center; */
   flex-wrap: wrap;
-  height: calc(100vh - 200px);
+  height: calc(100vh - 100px);
   /* background-color: red; */
 }
 
 .projects {
-  flex: 1 1 300px;
-  height: 220px;
+  flex: 1 1 260px;
+  height: 127px;
   margin: 10px;
   display: flex;
   flex-direction: column;
