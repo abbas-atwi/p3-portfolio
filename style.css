@@ -53,6 +53,7 @@ main {
 
 .main-container {
   max-width: 960px;
+
   margin: 0 auto;
 }
 
@@ -61,7 +62,7 @@ main {
   /* align-items: center;
   justify-content: center; */
   flex-wrap: wrap;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 200px);
   /* background-color: red; */
 }
 
