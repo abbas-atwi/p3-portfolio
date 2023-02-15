@@ -19,6 +19,7 @@ header {
 .logo {
   display: flex;
   align-items: center;
+  text-align: center;
   font-size: 1.8em;
   color: #fff;
   margin: 5px 10px 5px 10px;
@@ -46,7 +47,7 @@ header {
   transition: all 1s ease;
 }
 main {
-  height: 100px;
+  height: calc(100vh - 100px);
 }
 
 .main-container {
@@ -59,15 +60,23 @@ main {
   /* align-items: center;
   justify-content: center; */
   flex-wrap: wrap;
-  flex-basis: 1 1 200px;
-  background-color: red;
+  flex-shrink: 1 1 495px;
+  /* background-color: red; */
 }
+
 .projects {
-  flex: 1 1 200px;
-  height: 300px;
+  flex: 1 1 240px;
+  height: 250px;
   margin: 10px;
-  background-color: yellow;
+  border-bottom: 5px solid #1a284b;
+  /* background-color: yellow; */
 }
+
+.projects:hover {
+  border-bottom: 7px solid #1a284b;
+  transition: all 0.1s linear;
+}
+
 .projects h1 {
   text-align: center;
   font-size: 1.5em;
@@ -75,4 +84,26 @@ main {
 }
 .projects p {
   text-align: center;
+}
+footer {
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  background-color: #1b5360;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+address {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 80px;
+  color: #ffff;
+  font-weight: normal;
+}
+q {
+  margin-top: 5px;
 }
